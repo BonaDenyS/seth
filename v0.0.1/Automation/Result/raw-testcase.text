@@ -1,0 +1,35 @@
+Test Case: Login Page Creation
+
+Objective: To verify that the login page is properly created for users to login through the app.
+
+Preconditions:
+
+- The app is installed on the device.
+- The device is connected to the internet.
+- Registered user account details are available.
+
+Test Steps:
+
+1. Open the app on the device.
+2. Verify that the login page is visible on the screen.
+3. Verify that the login page contains the following elements:
+   - Username/Email input field
+   - Password input field
+   - "Login" button
+   - "Forgot Password?" link (optional)
+   - "Create Account" link (optional)
+4. Enter a valid username/email and password to the relevant fields.
+5. Click on the "Login" button.
+6. Verify that the system validates the login credentials.
+7. Verify that the user is directed to the home page/dashboard on successful login.
+8. Verify that an error message is displayed for invalid login credentials.
+9. Verify that clicking on the "Forgot Password?" link directs the user to a password recovery/reset page.
+10. Verify that clicking on the "Create Account" link directs the user to a registration page.
+
+Postconditions:
+
+- The user is successfully logged in and directed to the home page/dashboard.
+- Error messages are displayed for invalid login credentials.
+- The "Forgot Password?" and "Create Account" links correctly direct users to the relevant pages.
+
+Note: This is a basic test case for login page creation. It may be expanded to include test scenarios for different inputs and possible errors.
